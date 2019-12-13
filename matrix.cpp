@@ -58,7 +58,7 @@ void capacity(vector <vector <int>>& c, vector <int> a, vector<int> b, int size,
 	{
 		cb += b.at(i);
 	}
-	int cc = ca;//(ca > cb ? ca : cb);
+	int cc = ca;
 	for (int i = 0; i < size; i++) {
 		for (int j = 0; j < size; j++) {
 			if (i == j || (j == 0 || i == 1)) {
